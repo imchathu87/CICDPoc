@@ -12,6 +12,7 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		42443013277985D2002402C7 /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42443012277985D2002402C7 /* AppCenter-Config.plist */; };
 		6EE2423FFEB4241255FAB4F3 /* libPods-CICDPoc-CICDPocTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFA775EE2A91718052D4A24 /* libPods-CICDPoc-CICDPocTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -37,6 +38,7 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = CICDPoc/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = CICDPoc/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = CICDPoc/main.m; sourceTree = "<group>"; };
+		42443012277985D2002402C7 /* AppCenter-Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppCenter-Config.plist"; sourceTree = "<group>"; };
 		4EFA775EE2A91718052D4A24 /* libPods-CICDPoc-CICDPocTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CICDPoc-CICDPocTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = CICDPoc/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C0A70A949D683DC8A98F636 /* Pods-CICDPoc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CICDPoc.release.xcconfig"; path = "Target Support Files/Pods-CICDPoc/Pods-CICDPoc.release.xcconfig"; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				42443012277985D2002402C7 /* AppCenter-Config.plist */,
 			);
 			name = CICDPoc;
 			sourceTree = "<group>";
@@ -145,7 +148,6 @@
 				A239DC8B85F84DD14E40A69B /* Pods-CICDPoc-CICDPocTests.debug.xcconfig */,
 				0DDEB3E634A13274683A9D67 /* Pods-CICDPoc-CICDPocTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -245,6 +247,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				42443013277985D2002402C7 /* AppCenter-Config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
