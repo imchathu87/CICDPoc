@@ -78,13 +78,13 @@ const App: () => Node = () => {
             Edit <Text style={styles.highlight}>App.js</Text> to change this
             screen and then come back to see your edits.
           </Section>
-          <Section title="See Your Changes">
+          <Section title="See Your Changes Code">
             <ReloadInstructions />
           </Section>
-          <Section title="Debug">
+          <Section title="Debug vs code">
             <DebugInstructions />
           </Section>
-          <Section title="Learn More">
+          <Section title="Learn More Sameera Chathuranga">
             Read the docs to discover what to do next:
           </Section>
           <LearnMoreLinks />
