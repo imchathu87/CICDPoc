@@ -26,7 +26,7 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-import codePush from "react-native-code-push";
+import codePush from 'react-native-code-push';
 
 let codePushOptions = {checkFrequency: codePush.CheckFrequency.ON_APP_RESUME};
 
@@ -78,13 +78,13 @@ const App: () => Node = () => {
             Edit <Text style={styles.highlight}>App.js</Text> to change this
             screen and then come back to see your edits.
           </Section>
-          <Section title="See Your Changes Code">
+          <Section title="See Your Changes Code IOS">
             <ReloadInstructions />
           </Section>
-          <Section title="Debug vs code">
+          <Section title="Elliott">
             <DebugInstructions />
           </Section>
-          <Section title="Learn More Sameera Chathuranga">
+          <Section title="Learn More Anton">
             Read the docs to discover what to do next:
           </Section>
           <LearnMoreLinks />
